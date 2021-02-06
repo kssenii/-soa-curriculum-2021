@@ -1,0 +1,17 @@
+Time to serialize JSON: 690.310088ms 
+Time to deserialize JSON: 1.670574923s 
+
+Time to serialize XML: 2.344470915s 
+Time to deserialize XML: 5.675639956s 
+
+Time to serialize YAML: 6.393499992s 
+Time to deserialize YAML: 8.667004524s 
+
+Time to serialize MessagePack: 627.230164ms 
+Time to deserialize MessagePack: 693.110002ms 
+
+Time to serialize Native: 997.518431ms 
+Time to deserialize Native: 82.417866ms 
+
+Time to serialize Protobuf: 358.305596ms 
+Time to deserialize Protobuf: 491.321821ms 

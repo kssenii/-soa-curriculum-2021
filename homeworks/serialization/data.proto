@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package data;
+
+option go_package = "github.com/kssenii/soa-curriculum-2021/homeworks/serialization/data";
+
+message StructData
+{
+    bool a = 1;
+    uint64 b = 2;
+    double c = 3;
+    string d = 4;
+    repeated string e = 5;
+    repeated float f = 6;
+    map<string, string> g = 7;
+}
